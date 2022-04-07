@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dummy-db
+  description: Stores dummy details
+spec:
+  type: database
+  owner: campus-plateform
+  system: dummy
