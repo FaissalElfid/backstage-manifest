@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-manifest
+  annotations:
+    github.com/project-slug: FaissalElfid/backstage-manifest
+spec:
+  type: other
+  lifecycle: unknown
+  owner: infrastructure
