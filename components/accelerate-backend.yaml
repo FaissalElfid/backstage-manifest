@@ -8,24 +8,30 @@ metadata:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=backend-app-staging,app.kubernetes.io/part-of=accelerate'
     sonarqube.org/project-key: accelerate-backend
   links:
+    - url: https://accelerate.campus.clusterdiali.me/
+      title: Accelerate frontend
+      icon: dashboard 
+    - url: https://accelerate-backend.campus.clusterdiali.me/
+      title: Accelerate backend
+      icon: room-service
     - url: https://github.com/octocampus/devsecops_frontend
       title: Github Frontend Repository 
       icon: GitHub
     - url: https://github.com/octocampus/devsecops_backend
       title: Github Backend Repository 
-      icon: GitHub
+      icon: GitHubIcon 
     - url: https://github.com/octocampus/accelerate-gitops
       title: Github GitOps Repository 
-      icon: GitHub
+      icon: GitHubIcon 
     - url: https://sonar.campus.clusterdiali.me/dashboard?id=accelerate-frontend
       title: SonarQube Frontend
-      icon: sonar
+      icon: PolicyIcon 
     - url: https://sonar.campus.clusterdiali.me/dashboard?id=accelerate-backend
       title: SonarQube Backend
-      icon: sonar
+      icon: PolicyIcon 
     - url: https://accelerate-octo.atlassian.net/jira/software/projects/AC/boards/1
       title: Accelerate Jira
-      icon: Jira
+      icon: GroupsIcon 
   tags:
     - springboot
     - backend

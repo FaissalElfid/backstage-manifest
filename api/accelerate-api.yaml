@@ -8,4 +8,5 @@ spec:
   lifecycle: experimental
   owner: accelerate-team
   system: accelerate-system
-  definition: https://accelerate-backend.campus.clusterdiali.me/api/v1/hello-octo/api-docs
+  definition:
+    $text: https://accelerate-backend.campus.clusterdiali.me/api/v1/hello-octo/api-docs
