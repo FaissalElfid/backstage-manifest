@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Mohammed
+spec:
+  profile:
+    displayName: ZERROUALI Mohammed
+    email: med2002ze@gmail.com
+    picture: https://cdn-icons-png.flaticon.com/512/3135/3135715.png
+  memberOf: [accelerate-team]

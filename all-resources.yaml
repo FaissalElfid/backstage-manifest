@@ -5,4 +5,4 @@ metadata:
   description: A collection of all Backstage example resources
 spec:
   targets:
-    - ./ressources/example-resource.yaml
+    - ./ressources/accelerate-ressource.yaml

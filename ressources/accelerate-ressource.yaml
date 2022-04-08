@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: accelerate-db
+  description: MongoDB database
+spec:
+  type: database
+  owner: accelerate-team
+  system: accelerate-system

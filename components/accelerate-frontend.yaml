@@ -1,0 +1,39 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: accelerate
+  description: Accelerate
+  annotations:
+    github.com/project-slug: octocampus/devsecops_frontend
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=frontend-app-staging,app.kubernetes.io/part-of=accelerate'
+    sonarqube.org/project-key: accelerate-frontend
+  links:
+    - url: https://github.com/octocampus/devsecops_frontend
+      title: Github Frontend Repository 
+      icon: GitHub
+    - url: https://github.com/octocampus/devsecops_backend
+      title: Github Backend Repository 
+      icon: GitHub
+    - url: https://github.com/octocampus/accelerate-gitops
+      title: Github GitOps Repository 
+      icon: GitHub
+    - url: https://sonar.campus.clusterdiali.me/dashboard?id=accelerate-frontend
+      title: SonarQube Frontend
+      icon: sonar
+    - url: https://sonar.campus.clusterdiali.me/dashboard?id=accelerate-backend
+      title: SonarQube Backend
+      icon: sonar
+    - url: https://accelerate-octo.atlassian.net/jira/software/projects/AC/boards/1
+      title: Accelerate Jira
+      icon: Jira
+  tags:
+    - ReactJS
+    - FrontEnd
+    - Accelerate
+spec:
+  type: website
+  lifecycle: experimental
+  owner: accelerate-team
+  system: accelerate-system
+  consumesApi:
+    - artist-api
