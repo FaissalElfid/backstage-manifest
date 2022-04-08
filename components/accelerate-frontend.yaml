@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: accelerate-frontend
-  description: Accelerate
+  description: Accelerate frontend for DevSecOps maturity assessment 
   annotations:
     github.com/project-slug: octocampus/devsecops_frontend
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=frontend-app-staging,app.kubernetes.io/part-of=accelerate'
@@ -27,9 +27,9 @@ metadata:
       title: Accelerate Jira
       icon: Jira
   tags:
-    - ReactJS
-    - FrontEnd
-    - Accelerate
+    - reactjs
+    - frontend
+    - accelerate
 spec:
   type: website
   lifecycle: experimental

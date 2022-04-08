@@ -27,10 +27,9 @@ metadata:
       title: Accelerate Jira
       icon: Jira
   tags:
-    - spring-boot
-    - Backend
-    - OpenApi
-    - Accelerate
+    - springboot
+    - backend
+    - openapi
 spec:
   type: service
   lifecycle: experimental
