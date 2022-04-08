@@ -9,4 +9,4 @@ spec:
   owner: accelerate-team
   system: accelerate-system
   definition:
-    $text: https://github.com/FaissalElfid/backstage-manifest/blob/main/api/accelerate.json
+    $json: https://localhost:8080/api/v1/hello-octo/api-docs
