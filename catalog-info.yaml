@@ -5,7 +5,7 @@ metadata:
   description: Accelerate
   annotations:
     github.com/project-slug: octocampus/accelerate
-    backstage.io/source-location: url:https://github.com/my-org/my-service/
+    backstage.io/source-location: url:https://github.com/octocampus/accelerate/
   links:
     - url: https://example.com/user
       title: Examples Users
