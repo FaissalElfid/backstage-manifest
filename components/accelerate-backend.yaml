@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: accelerate
-  description: Accelerate
+  name: accelerate-backend
+  description: Accelerate backend for DevSecOps maturity assessment 
   annotations:
     github.com/project-slug: octocampus/devsecops_backend
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=backend-app-staging,app.kubernetes.io/part-of=accelerate'
