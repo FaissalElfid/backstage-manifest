@@ -9,4 +9,5 @@ spec:
   owner: accelerate-team
   system: accelerate-system
   definition:
-    $json: https://localhost:8080/api/v1/hello-octo/api-docs
+    $text: https://github.com/FaissalElfid/backstage-manifest/blob/main/api/accelerate.json
+    # $text: https://accelerate-backend.campus.clusterdiali.me/api/v1/hello-octo/api-docs #working on the app cors
